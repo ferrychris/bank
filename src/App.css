@@ -1,0 +1,86 @@
+
+#lesimagestuborn{
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  
+}
+#appleplayfamily{
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+#sidemenuicon{
+  color: white;
+  transition: 1s;
+  cursor: pointer;
+}
+li{
+  list-style: none;
+}
+#sidemenuicon:hover{
+  color: green;
+}
+#dashboarduserdetailsbtm{
+  
+  color: yellow;
+}
+#profileimg{
+  cursor: pointer;
+}
+#dashboardtop{
+  border-bottom: 2px solid black;
+}
+
+#footer{
+  color: white;
+  background-color: navy;
+}
+#section2div{
+  text-align: center;
+  justify-content: center; 
+  justify-items: center;
+}
+a:hover{
+  color: green;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#lestartimage{
+  box-shadow: black 10px;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
